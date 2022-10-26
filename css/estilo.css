@@ -42,7 +42,7 @@ footer {
 }
 
 /* Responsive */
-@media (min-width: 300px) and (max-width: 480px) {
+@media (min-width: 400px) and (max-width: 680px) {
     * {
         font-size: 1rem;
     }
