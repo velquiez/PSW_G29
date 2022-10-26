@@ -54,11 +54,11 @@ footer {
         overflow-x: hidden;
     }
 
-    navegador {
+    .navegador {
         margin: 0 1.5rem 0 1.5rem;
     }
 
-    navegador ul {
+    .navegador ul {
         display: none;
     }
     
@@ -66,6 +66,7 @@ footer {
         display: grid;
         grid-template-columns: 100%;
         margin: 0 auto;
+        background-color: #837ae6da;
     }
     main{
         font-size: xx-small;
