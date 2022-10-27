@@ -26,33 +26,48 @@
         </header>
         
         <div class="navegador">
-                <nav id="menu" class="navbar nav navbar-expand-md nav-pills flex-column flex-sm-row ">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                        <a id="btn-menu" class="flex-sm nav-link  mx-auto active" href="index.html">Inicio</a>
-                        <a id="btn-menu" class="flex-sm nav-link mx-auto" href="administrador.html">Administrador</a>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Inventario</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="registro-produc.html">Registro-Producto</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="actualizar-produc.html">Actualizar</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="elimina-produc.html">Eliminar</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="buscar-produc.html">Consultar</a></li>
-                            </ul>
-                        </li>
-                        <a id="btn-menu" class="flex-sm nav-link mx-auto" aria-current="page"
-                            href="utilidades.html">Utilidades</a>
+                <nav id="menu" class="navbar nav navbar-expand-md nav-pills flex-column flex-sm-row">
+                    <div class="container-fluid">
+
+                        <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> Menú</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+
+                            <div id="cajamenu" class="offcanvas-body">
+                                <ul id="menudepleg" class="navbar-nav justify-content-end flex-grow-1 pe-3">
+    
+                                    <a id="btn-menu" class="flex-sm nav-link  mx-auto active" href="index.html">Inicio</a>
+                                    <a id="btn-menu" class="flex-sm nav-link mx-auto" href="administrador.html">Administrador</a>
+                                    <li class="nav-item dropdown justify-content-end">
+                                        <a id="btn-menu" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Inventario</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="registro-produc.html">Registro-Producto</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="actualizar-produc.html">Actualizar</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="elimina-produc.html">Eliminar</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="buscar-produc.html">Consultar</a></li>
+                                        </ul>
+                                    </li>
+                                    <a id="btn-menu" class="flex-sm nav-link mx-auto" aria-current="page"
+                                        href="utilidades.html">Utilidades</a>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </nav>
         </div>

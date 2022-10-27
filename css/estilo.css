@@ -21,8 +21,7 @@ grid-column: 2/5;
 }
 .container-inicio {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 40px;    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
 }
 .carrusel-inicio {
     grid-column: 2/5;
@@ -40,35 +39,29 @@ footer {
 .container {
     padding: 20px;
 }
+#btn-menu{
+    color: rgb(172, 184, 194);
+}
 
 /* Responsive */
-@media (min-width: 400px) and (max-width: 680px) {
-    * {
+@media screen and (max-width: 400px) {
+    *{
         font-size: 1rem;
     }
-
     body {
         height: 100vh;
         width: 100vw;
         overflow-y: hidden;
         overflow-x: hidden;
     }
-
-    .navegador {
-        margin: 0 1.5rem 0 1.5rem;
-    }
-
-    .navegador ul {
-        display: none;
-    }
-    
-    #menu {
-        display: grid;
-        grid-template-columns: 100%;
-        margin: 0 auto;
-        background-color: #837ae6da;
+    #cajamenu{
+       background-color: dimgrey;
+        text-align: center;
     }
     main{
+        font-size: xx-small;
+    }
+    footer{
         font-size: xx-small;
     }
 }
