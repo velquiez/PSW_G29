@@ -43,7 +43,7 @@ footer {
     color: rgb(172, 184, 194);
 }
 /* Responsive */
-@media screen and (max-width: 250px){
+@media screen and (max-width: 600px){
     *{
         font-size: 1rem;
     }
