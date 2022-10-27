@@ -42,9 +42,8 @@ footer {
 #btn-menu{
     color: rgb(172, 184, 194);
 }
-
 /* Responsive */
-@media screen and (max-width: 2500px){
+@media screen and (max-width: 270px){
     *{
         font-size: 1rem;
     }
